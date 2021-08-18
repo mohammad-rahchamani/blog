@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: "Mohammad Rahchamani's Blog",
   author: 'Mohammad Rahchamani',
   headerTitle: "Mohammad's Blog",
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Welcome to my blog, where I mostly write about software development.',
   language: 'en-us',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
