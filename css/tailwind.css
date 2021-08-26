@@ -30,3 +30,45 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: 'Barlow Condensed';
+}
+
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+.dark {
+  --background: black;
+  --foreground: white;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillColor {
+  to {
+    fill: var(--foreground);
+  }
+}
+
+svg path {
+  fill: var(--background);
+  stroke: var(--foreground);
+  stroke-width: 0.5;
+  stroke-dashoffset: 8000;
+  stroke-dasharray: 8000;
+  animation: dash 24s ease-in forwards, fillColor 16s linear forwards;
+  pointer-events: none;
+}
+
+.typed-cursor {
+  color: var(--foreground);
+  font-size: 6rem;
+}
