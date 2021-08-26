@@ -24,7 +24,7 @@ class MyDocument extends Document {
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;600;700&display=swap"
             rel="stylesheet"
           />
           <link
@@ -34,7 +34,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
+        <body className="antialiased text-black bg-white dark:bg-black dark:text-white">
           <Main />
           <NextScript />
         </body>
